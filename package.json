@@ -1,0 +1,22 @@
+{
+  "name": "svg-symbols-creator",
+  "version": "1.0.0",
+  "description": "Create svg file with symbols from svg icons",
+  "scripts": {
+    "preinstall": "npm install --global gulp-cli",
+    "start": "gulp watch",
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anton Levholm",
+  "license": "MIT",
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "gulp": "^4.0.2",
+    "gulp-svgmin": "^2.2.0",
+    "gulp-svgstore": "^7.0.1",
+    "path": "^0.12.7",
+    "through2": "^3.0.1",
+    "vinyl": "^2.2.0"
+  }
+}
